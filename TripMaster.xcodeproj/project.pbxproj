@@ -14,6 +14,13 @@
 		EC05F2322C989576003F5247 /* TripMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F2312C989576003F5247 /* TripMasterTests.swift */; };
 		EC05F23C2C989576003F5247 /* TripMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F23B2C989576003F5247 /* TripMasterUITests.swift */; };
 		EC05F23E2C989576003F5247 /* TripMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */; };
+		EC28A4B92C98964A00069D6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4B82C98964A00069D6B /* HomeView.swift */; };
+		EC28A4BB2C98966B00069D6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4BA2C98966B00069D6B /* User.swift */; };
+		EC28A4BF2C9896E500069D6B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4BE2C9896E500069D6B /* UserView.swift */; };
+		EC28A4C12C9896FC00069D6B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C02C9896FC00069D6B /* SettingsView.swift */; };
+		EC28A4C32C98971C00069D6B /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C22C98971C00069D6B /* Route.swift */; };
+		EC28A4C52C98979D00069D6B /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C42C98979D00069D6B /* Step.swift */; };
+		EC28A4C72C9897E000069D6B /* TravelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C62C9897E000069D6B /* TravelGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		EC05F2372C989576003F5247 /* TripMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC05F23B2C989576003F5247 /* TripMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterUITests.swift; sourceTree = "<group>"; };
 		EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC28A4B82C98964A00069D6B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC28A4BA2C98966B00069D6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC28A4BE2C9896E500069D6B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		EC28A4C02C9896FC00069D6B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EC28A4C22C98971C00069D6B /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		EC28A4C42C98979D00069D6B /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		EC28A4C62C9897E000069D6B /* TravelGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,8 @@
 		EC05F2142C989575003F5247 = {
 			isa = PBXGroup;
 			children = (
+				EC28A4B72C98963F00069D6B /* Views */,
+				EC28A4B62C98963500069D6B /* Models */,
 				EC05F21F2C989575003F5247 /* TripMaster */,
 				EC05F2302C989576003F5247 /* TripMasterTests */,
 				EC05F23A2C989576003F5247 /* TripMasterUITests */,
@@ -125,6 +141,27 @@
 				EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */,
 			);
 			path = TripMasterUITests;
+			sourceTree = "<group>";
+		};
+		EC28A4B62C98963500069D6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC28A4BA2C98966B00069D6B /* User.swift */,
+				EC28A4C22C98971C00069D6B /* Route.swift */,
+				EC28A4C42C98979D00069D6B /* Step.swift */,
+				EC28A4C62C9897E000069D6B /* TravelGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC28A4B72C98963F00069D6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC28A4B82C98964A00069D6B /* HomeView.swift */,
+				EC28A4BE2C9896E500069D6B /* UserView.swift */,
+				EC28A4C02C9896FC00069D6B /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC28A4BB2C98966B00069D6B /* User.swift in Sources */,
+				EC28A4C52C98979D00069D6B /* Step.swift in Sources */,
+				EC28A4C72C9897E000069D6B /* TravelGroup.swift in Sources */,
+				EC28A4B92C98964A00069D6B /* HomeView.swift in Sources */,
+				EC28A4BF2C9896E500069D6B /* UserView.swift in Sources */,
+				EC28A4C12C9896FC00069D6B /* SettingsView.swift in Sources */,
 				EC05F2232C989575003F5247 /* ContentView.swift in Sources */,
+				EC28A4C32C98971C00069D6B /* Route.swift in Sources */,
 				EC05F2212C989575003F5247 /* TripMasterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
