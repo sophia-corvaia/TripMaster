@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC05F2212C989575003F5247 /* TripMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F2202C989575003F5247 /* TripMasterApp.swift */; };
+		EC05F2232C989575003F5247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F2222C989575003F5247 /* ContentView.swift */; };
+		EC05F2252C989575003F5247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC05F2242C989575003F5247 /* Assets.xcassets */; };
+		EC05F2282C989575003F5247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC05F2272C989575003F5247 /* Preview Assets.xcassets */; };
+		EC05F2322C989576003F5247 /* TripMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F2312C989576003F5247 /* TripMasterTests.swift */; };
+		EC05F23C2C989576003F5247 /* TripMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F23B2C989576003F5247 /* TripMasterUITests.swift */; };
+		EC05F23E2C989576003F5247 /* TripMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC05F22E2C989576003F5247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC05F2152C989575003F5247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC05F21C2C989575003F5247;
+			remoteInfo = TripMaster;
+		};
+		EC05F2382C989576003F5247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC05F2152C989575003F5247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC05F21C2C989575003F5247;
+			remoteInfo = TripMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC05F21D2C989575003F5247 /* TripMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC05F2202C989575003F5247 /* TripMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterApp.swift; sourceTree = "<group>"; };
+		EC05F2222C989575003F5247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC05F2242C989575003F5247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC05F2272C989575003F5247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC05F22D2C989576003F5247 /* TripMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC05F2312C989576003F5247 /* TripMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterTests.swift; sourceTree = "<group>"; };
+		EC05F2372C989576003F5247 /* TripMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC05F23B2C989576003F5247 /* TripMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterUITests.swift; sourceTree = "<group>"; };
+		EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC05F21A2C989575003F5247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC05F22A2C989576003F5247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC05F2342C989576003F5247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC05F2142C989575003F5247 = {
+			isa = PBXGroup;
+			children = (
+				EC05F21F2C989575003F5247 /* TripMaster */,
+				EC05F2302C989576003F5247 /* TripMasterTests */,
+				EC05F23A2C989576003F5247 /* TripMasterUITests */,
+				EC05F21E2C989575003F5247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC05F21E2C989575003F5247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC05F21D2C989575003F5247 /* TripMaster.app */,
+				EC05F22D2C989576003F5247 /* TripMasterTests.xctest */,
+				EC05F2372C989576003F5247 /* TripMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC05F21F2C989575003F5247 /* TripMaster */ = {
+			isa = PBXGroup;
+			children = (
+				EC05F2202C989575003F5247 /* TripMasterApp.swift */,
+				EC05F2222C989575003F5247 /* ContentView.swift */,
+				EC05F2242C989575003F5247 /* Assets.xcassets */,
+				EC05F2262C989575003F5247 /* Preview Content */,
+			);
+			path = TripMaster;
+			sourceTree = "<group>";
+		};
+		EC05F2262C989575003F5247 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC05F2272C989575003F5247 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC05F2302C989576003F5247 /* TripMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC05F2312C989576003F5247 /* TripMasterTests.swift */,
+			);
+			path = TripMasterTests;
+			sourceTree = "<group>";
+		};
+		EC05F23A2C989576003F5247 /* TripMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC05F23B2C989576003F5247 /* TripMasterUITests.swift */,
+				EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */,
+			);
+			path = TripMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC05F21C2C989575003F5247 /* TripMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC05F2412C989576003F5247 /* Build configuration list for PBXNativeTarget "TripMaster" */;
+			buildPhases = (
+				EC05F2192C989575003F5247 /* Sources */,
+				EC05F21A2C989575003F5247 /* Frameworks */,
+				EC05F21B2C989575003F5247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripMaster;
+			productName = TripMaster;
+			productReference = EC05F21D2C989575003F5247 /* TripMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC05F22C2C989576003F5247 /* TripMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC05F2442C989576003F5247 /* Build configuration list for PBXNativeTarget "TripMasterTests" */;
+			buildPhases = (
+				EC05F2292C989576003F5247 /* Sources */,
+				EC05F22A2C989576003F5247 /* Frameworks */,
+				EC05F22B2C989576003F5247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC05F22F2C989576003F5247 /* PBXTargetDependency */,
+			);
+			name = TripMasterTests;
+			productName = TripMasterTests;
+			productReference = EC05F22D2C989576003F5247 /* TripMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC05F2362C989576003F5247 /* TripMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC05F2472C989576003F5247 /* Build configuration list for PBXNativeTarget "TripMasterUITests" */;
+			buildPhases = (
+				EC05F2332C989576003F5247 /* Sources */,
+				EC05F2342C989576003F5247 /* Frameworks */,
+				EC05F2352C989576003F5247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC05F2392C989576003F5247 /* PBXTargetDependency */,
+			);
+			name = TripMasterUITests;
+			productName = TripMasterUITests;
+			productReference = EC05F2372C989576003F5247 /* TripMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC05F2152C989575003F5247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EC05F21C2C989575003F5247 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EC05F22C2C989576003F5247 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EC05F21C2C989575003F5247;
+					};
+					EC05F2362C989576003F5247 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EC05F21C2C989575003F5247;
+					};
+				};
+			};
+			buildConfigurationList = EC05F2182C989575003F5247 /* Build configuration list for PBXProject "TripMaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC05F2142C989575003F5247;
+			productRefGroup = EC05F21E2C989575003F5247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC05F21C2C989575003F5247 /* TripMaster */,
+				EC05F22C2C989576003F5247 /* TripMasterTests */,
+				EC05F2362C989576003F5247 /* TripMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC05F21B2C989575003F5247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC05F2282C989575003F5247 /* Preview Assets.xcassets in Resources */,
+				EC05F2252C989575003F5247 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC05F22B2C989576003F5247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC05F2352C989576003F5247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC05F2192C989575003F5247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC05F2232C989575003F5247 /* ContentView.swift in Sources */,
+				EC05F2212C989575003F5247 /* TripMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC05F2292C989576003F5247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC05F2322C989576003F5247 /* TripMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC05F2332C989576003F5247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC05F23C2C989576003F5247 /* TripMasterUITests.swift in Sources */,
+				EC05F23E2C989576003F5247 /* TripMasterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC05F22F2C989576003F5247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC05F21C2C989575003F5247 /* TripMaster */;
+			targetProxy = EC05F22E2C989576003F5247 /* PBXContainerItemProxy */;
+		};
+		EC05F2392C989576003F5247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC05F21C2C989575003F5247 /* TripMaster */;
+			targetProxy = EC05F2382C989576003F5247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC05F23F2C989576003F5247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC05F2402C989576003F5247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC05F2422C989576003F5247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = K7J4NMKXCQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unipa.TripMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC05F2432C989576003F5247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = K7J4NMKXCQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unipa.TripMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC05F2452C989576003F5247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7J4NMKXCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unipa.TripMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripMaster";
+			};
+			name = Debug;
+		};
+		EC05F2462C989576003F5247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7J4NMKXCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unipa.TripMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripMaster";
+			};
+			name = Release;
+		};
+		EC05F2482C989576003F5247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7J4NMKXCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unipa.TripMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripMaster;
+			};
+			name = Debug;
+		};
+		EC05F2492C989576003F5247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7J4NMKXCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Unipa.TripMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC05F2182C989575003F5247 /* Build configuration list for PBXProject "TripMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC05F23F2C989576003F5247 /* Debug */,
+				EC05F2402C989576003F5247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC05F2412C989576003F5247 /* Build configuration list for PBXNativeTarget "TripMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC05F2422C989576003F5247 /* Debug */,
+				EC05F2432C989576003F5247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC05F2442C989576003F5247 /* Build configuration list for PBXNativeTarget "TripMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC05F2452C989576003F5247 /* Debug */,
+				EC05F2462C989576003F5247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC05F2472C989576003F5247 /* Build configuration list for PBXNativeTarget "TripMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC05F2482C989576003F5247 /* Debug */,
+				EC05F2492C989576003F5247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC05F2152C989575003F5247 /* Project object */;
+}
