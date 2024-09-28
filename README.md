@@ -9,7 +9,7 @@ Welcome to **TripMaster**, an app developed as part of the Apple Foundation Prog
 ## Features
 
 ### 1. **User Preference Matching Algorithm**
-TripMaster uses a sophisticated matching algorithm that helps users create travel groups and receive custom itineraries based on the shared preferences of group members. Whether you're interested in exploring cultural sites, enjoying the nightlife, or seeking relaxation, TripMaster has you covered.
+TripMaster uses a matching algorithm that helps users create travel groups and receive custom itineraries based on the shared preferences of group members. Whether you're interested in exploring cultural sites, enjoying the nightlife, or seeking relaxation, TripMaster has you covered.
 
 ### 2. **Itinerary Categories**
 The app provides a variety of pre-set itineraries, categorized to suit different interests:
