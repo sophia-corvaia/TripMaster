@@ -14,13 +14,31 @@
 		EC05F2322C989576003F5247 /* TripMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F2312C989576003F5247 /* TripMasterTests.swift */; };
 		EC05F23C2C989576003F5247 /* TripMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F23B2C989576003F5247 /* TripMasterUITests.swift */; };
 		EC05F23E2C989576003F5247 /* TripMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */; };
-		EC28A4B92C98964A00069D6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4B82C98964A00069D6B /* HomeView.swift */; };
 		EC28A4BB2C98966B00069D6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4BA2C98966B00069D6B /* User.swift */; };
 		EC28A4BF2C9896E500069D6B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4BE2C9896E500069D6B /* UserView.swift */; };
 		EC28A4C12C9896FC00069D6B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C02C9896FC00069D6B /* SettingsView.swift */; };
 		EC28A4C32C98971C00069D6B /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C22C98971C00069D6B /* Route.swift */; };
 		EC28A4C52C98979D00069D6B /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C42C98979D00069D6B /* Step.swift */; };
 		EC28A4C72C9897E000069D6B /* TravelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A4C62C9897E000069D6B /* TravelGroup.swift */; };
+		EC45980E2C9997E1002CF533 /* DetailRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45980D2C9997E1002CF533 /* DetailRouteView.swift */; };
+		EC4598162C9AD151002CF533 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598152C9AD151002CF533 /* HomeView.swift */; };
+		EC4598182C9ADCC7002CF533 /* ListRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598172C9ADCC7002CF533 /* ListRoute.swift */; };
+		EC45981E2C9D6B7D002CF533 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45981D2C9D6B7C002CF533 /* GroupView.swift */; };
+		EC4598202C9DC536002CF533 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45981F2C9DC536002CF533 /* GroupDetailView.swift */; };
+		EC4598222C9DC75D002CF533 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598212C9DC75D002CF533 /* UserDetailsView.swift */; };
+		EC4598262C9DC9DC002CF533 /* GroupCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598252C9DC9DC002CF533 /* GroupCreateView.swift */; };
+		EC4598282C9DCAE3002CF533 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598272C9DCAE3002CF533 /* Friend.swift */; };
+		EC45982A2C9DCB23002CF533 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598292C9DCB23002CF533 /* ImagePicker.swift */; };
+		EC45982C2C9DD31E002CF533 /* GroupSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45982B2C9DD31E002CF533 /* GroupSettingView.swift */; };
+		EC4598302CA020A9002CF533 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45982F2CA020A9002CF533 /* LoginView.swift */; };
+		EC4598322CA02109002CF533 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598312CA02109002CF533 /* RegistrationView.swift */; };
+		EC4598362CA0342A002CF533 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598352CA0342A002CF533 /* UserService.swift */; };
+		EC4598382CA0343A002CF533 /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598372CA0343A002CF533 /* GroupService.swift */; };
+		EC45983B2CA03461002CF533 /* ParthenoKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC45983A2CA03461002CF533 /* ParthenoKit.xcframework */; };
+		EC45983C2CA03461002CF533 /* ParthenoKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC45983A2CA03461002CF533 /* ParthenoKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC45983F2CA0808E002CF533 /* FriendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45983E2CA0808E002CF533 /* FriendService.swift */; };
+		EC4598412CA31721002CF533 /* AddFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4598402CA31721002CF533 /* AddFriend.swift */; };
+		EC8B137C2CA3E3B3004C1B5E /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B137B2CA3E3B3004C1B5E /* RouteService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EC45983D2CA03461002CF533 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EC45983C2CA03461002CF533 /* ParthenoKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EC05F21D2C989575003F5247 /* TripMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC05F2202C989575003F5247 /* TripMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterApp.swift; sourceTree = "<group>"; };
@@ -51,13 +83,30 @@
 		EC05F2372C989576003F5247 /* TripMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC05F23B2C989576003F5247 /* TripMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterUITests.swift; sourceTree = "<group>"; };
 		EC05F23D2C989576003F5247 /* TripMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EC28A4B82C98964A00069D6B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EC28A4BA2C98966B00069D6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EC28A4BE2C9896E500069D6B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		EC28A4C02C9896FC00069D6B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EC28A4C22C98971C00069D6B /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		EC28A4C42C98979D00069D6B /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		EC28A4C62C9897E000069D6B /* TravelGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGroup.swift; sourceTree = "<group>"; };
+		EC45980D2C9997E1002CF533 /* DetailRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouteView.swift; sourceTree = "<group>"; };
+		EC4598152C9AD151002CF533 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC4598172C9ADCC7002CF533 /* ListRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoute.swift; sourceTree = "<group>"; };
+		EC45981D2C9D6B7C002CF533 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		EC45981F2C9DC536002CF533 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		EC4598212C9DC75D002CF533 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		EC4598252C9DC9DC002CF533 /* GroupCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCreateView.swift; sourceTree = "<group>"; };
+		EC4598272C9DCAE3002CF533 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		EC4598292C9DCB23002CF533 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EC45982B2C9DD31E002CF533 /* GroupSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSettingView.swift; sourceTree = "<group>"; };
+		EC45982F2CA020A9002CF533 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EC4598312CA02109002CF533 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		EC4598352CA0342A002CF533 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		EC4598372CA0343A002CF533 /* GroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
+		EC45983A2CA03461002CF533 /* ParthenoKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ParthenoKit.xcframework; path = ../../Downloads/ParthenoKit.xcframework; sourceTree = "<group>"; };
+		EC45983E2CA0808E002CF533 /* FriendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendService.swift; sourceTree = "<group>"; };
+		EC4598402CA31721002CF533 /* AddFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriend.swift; sourceTree = "<group>"; };
+		EC8B137B2CA3E3B3004C1B5E /* RouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC45983B2CA03461002CF533 /* ParthenoKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +144,7 @@
 				EC05F2302C989576003F5247 /* TripMasterTests */,
 				EC05F23A2C989576003F5247 /* TripMasterUITests */,
 				EC05F21E2C989575003F5247 /* Products */,
+				EC4598392CA03460002CF533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +165,10 @@
 				EC05F2222C989575003F5247 /* ContentView.swift */,
 				EC05F2242C989575003F5247 /* Assets.xcassets */,
 				EC05F2262C989575003F5247 /* Preview Content */,
+				EC4598352CA0342A002CF533 /* UserService.swift */,
+				EC8B137B2CA3E3B3004C1B5E /* RouteService.swift */,
+				EC45983E2CA0808E002CF533 /* FriendService.swift */,
+				EC4598372CA0343A002CF533 /* GroupService.swift */,
 			);
 			path = TripMaster;
 			sourceTree = "<group>";
@@ -149,7 +204,9 @@
 				EC28A4BA2C98966B00069D6B /* User.swift */,
 				EC28A4C22C98971C00069D6B /* Route.swift */,
 				EC28A4C42C98979D00069D6B /* Step.swift */,
+				EC4598292C9DCB23002CF533 /* ImagePicker.swift */,
 				EC28A4C62C9897E000069D6B /* TravelGroup.swift */,
+				EC4598272C9DCAE3002CF533 /* Friend.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,11 +214,29 @@
 		EC28A4B72C98963F00069D6B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EC28A4B82C98964A00069D6B /* HomeView.swift */,
 				EC28A4BE2C9896E500069D6B /* UserView.swift */,
 				EC28A4C02C9896FC00069D6B /* SettingsView.swift */,
+				EC45981D2C9D6B7C002CF533 /* GroupView.swift */,
+				EC4598252C9DC9DC002CF533 /* GroupCreateView.swift */,
+				EC45980D2C9997E1002CF533 /* DetailRouteView.swift */,
+				EC45982B2C9DD31E002CF533 /* GroupSettingView.swift */,
+				EC45981F2C9DC536002CF533 /* GroupDetailView.swift */,
+				EC4598212C9DC75D002CF533 /* UserDetailsView.swift */,
+				EC4598152C9AD151002CF533 /* HomeView.swift */,
+				EC4598172C9ADCC7002CF533 /* ListRoute.swift */,
+				EC45982F2CA020A9002CF533 /* LoginView.swift */,
+				EC4598312CA02109002CF533 /* RegistrationView.swift */,
+				EC4598402CA31721002CF533 /* AddFriend.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EC4598392CA03460002CF533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC45983A2CA03461002CF533 /* ParthenoKit.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +249,7 @@
 				EC05F2192C989575003F5247 /* Sources */,
 				EC05F21A2C989575003F5247 /* Frameworks */,
 				EC05F21B2C989575003F5247 /* Resources */,
+				EC45983D2CA03461002CF533 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,15 +370,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4598222C9DC75D002CF533 /* UserDetailsView.swift in Sources */,
 				EC28A4BB2C98966B00069D6B /* User.swift in Sources */,
+				EC4598322CA02109002CF533 /* RegistrationView.swift in Sources */,
 				EC28A4C52C98979D00069D6B /* Step.swift in Sources */,
+				EC4598412CA31721002CF533 /* AddFriend.swift in Sources */,
+				EC45982A2C9DCB23002CF533 /* ImagePicker.swift in Sources */,
+				EC4598362CA0342A002CF533 /* UserService.swift in Sources */,
+				EC45981E2C9D6B7D002CF533 /* GroupView.swift in Sources */,
+				EC45982C2C9DD31E002CF533 /* GroupSettingView.swift in Sources */,
+				EC4598182C9ADCC7002CF533 /* ListRoute.swift in Sources */,
 				EC28A4C72C9897E000069D6B /* TravelGroup.swift in Sources */,
-				EC28A4B92C98964A00069D6B /* HomeView.swift in Sources */,
+				EC4598382CA0343A002CF533 /* GroupService.swift in Sources */,
+				EC4598162C9AD151002CF533 /* HomeView.swift in Sources */,
+				EC45980E2C9997E1002CF533 /* DetailRouteView.swift in Sources */,
 				EC28A4BF2C9896E500069D6B /* UserView.swift in Sources */,
 				EC28A4C12C9896FC00069D6B /* SettingsView.swift in Sources */,
 				EC05F2232C989575003F5247 /* ContentView.swift in Sources */,
+				EC8B137C2CA3E3B3004C1B5E /* RouteService.swift in Sources */,
 				EC28A4C32C98971C00069D6B /* Route.swift in Sources */,
+				EC4598202C9DC536002CF533 /* GroupDetailView.swift in Sources */,
+				EC4598262C9DC9DC002CF533 /* GroupCreateView.swift in Sources */,
 				EC05F2212C989575003F5247 /* TripMasterApp.swift in Sources */,
+				EC4598302CA020A9002CF533 /* LoginView.swift in Sources */,
+				EC4598282C9DCAE3002CF533 /* Friend.swift in Sources */,
+				EC45983F2CA0808E002CF533 /* FriendService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,11 +561,12 @@
 				DEVELOPMENT_TEAM = K7J4NMKXCQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,11 +591,12 @@
 				DEVELOPMENT_TEAM = K7J4NMKXCQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,9 +8,12 @@
 import Foundation
 
 struct User: Identifiable, Codable {
-    public var id = UUID()
-    private var name: String
-    private var surname: String
-    
-    private var preferences: [String]  //TODO: Da aggiustare
+    var id = UUID()
+    var username: String
+    var password: String
+    var preferences: [Int] = [0, 0, 0, 0, 0] 
+    var details: String?
+    var image: String?
+    var liked: [Route] = []
+    var recommended: [Route] = []
 }

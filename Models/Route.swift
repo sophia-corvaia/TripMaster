@@ -7,10 +7,20 @@
 
 import Foundation
 
-struct Route: Identifiable, Codable {
-    public var id = UUID()
-    private var name: String
-    private var steps: [Step] //TODO: Da capire la struttura della tappa (se tipo semplice o complesso)
-    private var start_time: Double
-    private var end_time: Double
+enum Category: String, Codable, CaseIterable {
+    case culture, food, bynight, relax, adventure
 }
+
+struct Route: Identifiable, Codable {
+    var id = UUID()
+    var name: String
+    var steps: [Step] 
+    var start_time: String
+    var end_time: String
+    var description: String?
+    let category: String
+    var image: String?
+}
+
+
+

@@ -8,8 +8,11 @@
 import Foundation
 
 struct Step: Identifiable, Codable {
-    public var id = UUID()
-    private var name: String
-    private var open_time: Double
-    private var closing_time: Double
+    var id = UUID()
+    var name: String
+    var open_time: String?
+    var closing_time: String?
+    var description: String?
+    var info: String?
+    var image: String?
 }

@@ -9,6 +9,8 @@ import Foundation
 
 struct TravelGroup: Identifiable, Codable {
     public var id = UUID()
-    private var name: String
-    private var members: [User]
+    var name: String
+    var image: String = ""
+    var members: [User]
+    var group_routes: [Route] = []
 }

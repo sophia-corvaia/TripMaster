@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+struct Friend: Identifiable, Codable, Hashable {
+    var id = UUID()
+    var username: String
+    var friend_of: String //username of friend user
+}
