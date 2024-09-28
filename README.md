@@ -1,4 +1,4 @@
-# TripMaster
+<h1 align="center">TripMaster</h1>
 
 <p align="center">
   <img src="logo_tm.png" alt="TripMaster Logo" width="150"/>
