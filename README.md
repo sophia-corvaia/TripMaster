@@ -27,8 +27,7 @@ To get started with TripMaster, download the app, create an account, and start e
 ## Technology Stack
 
 - **SwiftUI**: For building a modern and intuitive user interface.
-- **Core Data**: To manage and store user data and travel preferences.
-- **MapKit**: For displaying and navigating itineraries on an interactive map.
+- **Partenokit**: To manage and store user data and travel preferences.
 - **Custom Algorithm**: For matching user preferences with personalized travel itineraries.
 
 ## License
