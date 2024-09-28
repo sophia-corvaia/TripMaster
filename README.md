@@ -1,6 +1,8 @@
 # TripMaster
 
-![TripMaster Logo](logo_tm.png)
+<p align="center">
+  <img src="logo_tm.png" alt="TripMaster Logo" width="150"/>
+</p>
 
 Welcome to **TripMaster**, an app developed as part of the Apple Foundation Program at the University of Palermo (Cohort 2). TripMaster is designed to enhance tourism experiences in Palermo by offering personalized travel itineraries based on user preferences.
 
